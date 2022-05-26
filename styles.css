@@ -77,6 +77,8 @@ li{
     width: 100%;
     height: 45vh;
     border-radius: 10px;
+    box-shadow: 5px 4px 5px rgb(197, 125, 16);
+    
 }
 @keyframes cambio {
     0%{margin-left: 0;}
@@ -120,4 +122,43 @@ li{
     padding: 0;
     background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
 
+}
+
+#h1 .h1{
+width: 100%;
+flex-direction: column;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+padding: 5px;
+}
+.h1 a{
+    font-size: 25px;
+    padding: 6px 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 2x;
+    background: orange;
+    box-shadow: 5px 4px 5px rgb(197, 125, 16);
+    transition: .5s;
+}
+.h1 a:hover{
+    font-size: 30px;
+    
+}
+footer{
+    display: flex;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    border-radius: 10x;
+    color: white;
+    min-height: 20vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#donde .container{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
 }
