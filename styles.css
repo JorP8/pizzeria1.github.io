@@ -125,7 +125,7 @@ width: 90px;
 }
 #galeria img{
 	width: 80%;
-	height: 40vh;
+	height: 35vh;
 	transition: .5s;
 }
 #galeria img:hover{
